@@ -2,11 +2,17 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 venv/
 .venv/
+env/
 .env
 .env.local
 *.egg-info/
+.eggs/
+dist/
+build/
 
 # Database
 *.db
@@ -17,3 +23,5 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+*.swp
+*.swo
